@@ -15,7 +15,7 @@
 }
 ### 1.4 执行npm run build开始打包
 结果如图：
-![github](https://github.com/antbrothers/electronjs/tree/master/img/by.png)；
+![github](https://github.com/antbrothers/electronjs/blob/master/img/by.png)；
 
 ## 2 打包成安装包
 2.0 Electron官方推荐使用grunt-electron-installer模块自动生成 Windows 安装向导。
@@ -27,7 +27,7 @@
 因为要用到grunt执行打包任务，所以，新建一个Gruntfile.js文件，并配置gurnt.config
 #### 2.4 grunt打包
 结果图：
-![github](https://github.com/antbrothers/electronjs/tree/master/img/rs.png)；
+![github](https://github.com/antbrothers/electronjs/blob/master/img/rs.png)；
 
 
 
