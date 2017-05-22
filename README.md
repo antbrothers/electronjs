@@ -20,11 +20,11 @@
 ![github](https://github.com/antbrothers/electronjs/blob/master/img/by.png)
 
 ## 2 打包成安装包
-2.0 Electron官方推荐使用grunt-electron-installer模块自动生成 Windows 安装向导。
+#### 2.0 Electron官方推荐使用grunt-electron-installer模块自动生成 Windows 安装向导。
 注意：以下操作都在bearhunting-win32-x64的父级目录中
-2.1 安装grunt-electron-installer
+#### 2.1 安装grunt-electron-installer
 新建package.json文件
-2.2 打开命令行，输入npm install grunt-electron-installer --save-dev安装grunt-electron-installer模块,接着输入npm install grunt --save-dev安装grunt
+####2.2 打开命令行，输入npm install grunt-electron-installer --save-dev安装grunt-electron-installer模块,接着输入npm install grunt --save-dev安装grunt
 #### 2.3 配置Gruntfile.js
 因为要用到grunt执行打包任务，所以，新建一个Gruntfile.js文件，并配置gurnt.config
 #### 2.4 grunt打包
