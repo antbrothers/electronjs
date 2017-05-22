@@ -1,0 +1,11 @@
+{
+  "name": "bearhunting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "electron-packager . bearhunting --win --out dis --arch=x64 --electron-version=1.0.0 --icon=./dis/logo.ico  --overwrite --ignore=node_modules --version-string.CompanyName=bearhunting --version-string.ProductName=bearhunting"
+  },
+  "author": "",
+  "license": "ISC"
+}
